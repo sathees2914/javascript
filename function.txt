@@ -1,0 +1,144 @@
+// Exercise : 3 - Javascript function 
+   
+    //Javascript function : 1
+    function abc(){
+        console.log('hello world');
+    };
+ 
+      abc(); 
+
+     result : hello world     
+
+     // Javascript function : 2 
+        //    function samsung(){
+        //     console.log('this is samsung mobile');
+        //    };    
+
+        //    function iphone(){
+        //       console.log('this is iphone');
+        //    };
+
+        //    function redmi(){
+        //     console.log('this is redmi');
+
+        //    };
+
+        //    samsung();
+        //    redmi();
+
+        result : this is samsung mobile
+                 this is redmi mobile 
+
+
+
+     // Javascript function : 3 
+          
+        var a= 10;
+        var b= 20;
+
+        function addition(){
+              let d = (a +b);
+            console.log(d);
+        };
+
+        addition();
+
+        result :  30
+
+
+     // javascript function : 4
+           
+            function addition(a,b){
+                let d=(a+b);
+            console.log(d);
+            };
+
+            addition(10,20);  
+
+
+            result : 30
+
+      // Javascript simple function used in area : 
+        
+             
+               function area(length, breadth){
+                   console.log('area : ' + length*breadth);
+
+                     }
+
+                area(30,60);
+
+               result : 1800
+        
+        
+     // Execrise : 5 
+           var favouriteActor = 'kamal';
+           var favouritePlayer = 'dhoni';
+           var favouriteMovie  = 'sivam';
+       
+           function myFavourite(){
+            console.log('Favourite Actor : '+ favouriteActor);
+            console.log('Favourite player : ' + favouritePlayer);
+            console.log('Favourite Movie : '+ favouriteMovie);   
+             }
+
+           myFavourite(); 
+
+    result : 
+            Favourite Actor : kamal
+            Favourite player : dhoni
+            Favourite Movie : sivam
+
+
+      // Execrise : 5 amother way to function 
+      
+        
+                function myFavourite(FActor,FPlayer,FMovie){
+ 
+                 console.log('Favourite Actor : '+ FActor);
+                 console.log('Favourite Player : '+ FPlayer);
+                 console.log('Favourite Movie : '+ FMovie);
+
+                }
+
+                myFavourite('kamal','dhoni','sivam');
+
+
+                result : 
+                Favourite Actor : kamal
+                Favourite Player : dhoni
+                Favourite Movie : sivam
+
+
+      // Exercise : 6  function used in return;
+
+                function myname(a){
+                return('My name is : ' + a)
+                }
+
+                var b =  myname('sathees');
+
+                 console.log(b);
+
+       result : sathees
+
+      // Exercise : 6 function used in return in two variables;
+ 
+                 function addition(a,b){
+                    return (a+b);
+                  }
+
+                  var n = addition(30,20);
+            
+                  console.log(n);
+
+         result: 30
+       // Exercise : 7 arrow function 
+             (()=>{
+              var myName = sathees;
+              console.log(myName);
+             })();   
+
+          result : sathees
+
+

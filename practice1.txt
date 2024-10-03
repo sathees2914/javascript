@@ -1,0 +1,66 @@
+//var 
+var a = 10;
+var b  = 10;
+console.log(a+b);
+
+
+// let 
+
+let c = 10;
+let  d = 15;
+ console.log(c-d);
+ console.log(d-c);  
+
+// const 
+
+const e = 20;
+const f = 15;
+
+console.log(e+f);
+console.log(f-e);
+console.log(f*e);
+console.log(f/e);
+console.log(f%e);
+
+
+var fruits = "Apple =";
+var count  = 10;
+var price = 100;
+var total = count * price;
+console.log(fruits,total);
+
+var h= 10;
+h++;
+console.log(h);
+
+var x = 10;
+var m = --x;
+console.log(m);
+
+
+Answers :
+
+0
+-5
+5
+35
+-5
+300
+0.75
+15
+Apple = 1000
+11
+9
+
+
+//exercise:1 - print the result product name and the totalamount
+  
+var price = 20;
+var product = "Mango = ";
+var tax = 10;
+
+var totalAmount = price + tax;
+
+console.log (product , totalAmount);
+
+result = Mango =  30

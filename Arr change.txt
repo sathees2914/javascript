@@ -1,0 +1,12 @@
+var arr = [
+    {name:'Dragon ball',
+    Episode : 27}, 
+    {name:'Naruto',
+    Episode: 12},
+    {name:'dragon ball',
+    Episode: 84},
+]
+
+ arr[2].name="Attack on Titan"
+arr[2].Episode=84
+ console.log(arr);
